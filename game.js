@@ -21,6 +21,7 @@ var attempt = 1
 
 function check() {
 
+  var answer = Array.from(answerArray);
   var tr = document.createElement("tr");
     for(i = 0;i <=4;i++){
       var td = document.createElement("td");
@@ -29,14 +30,17 @@ function check() {
       td.style.backgroundColor = "#0685ff";
       td.appendChild(tekst);
       tr.appendChild(td);
+      if(input.value === answer[i]){
+        td.style.backgroundColor = "red";
+        answer[i] = "*";
+    }
     for(j = 0;j<=4;j++){
-      if(input.value === answerArray[j]){
+      if(input.value === answer[j]){
+        if(td.style.backgroundColor !="red")
         td.style.backgroundColor = "yellow";
       }
     }
-      if(input.value === answerArray[i]){
-        td.style.backgroundColor = "red";
-    }
+
   }
    table.appendChild(tr);
 
