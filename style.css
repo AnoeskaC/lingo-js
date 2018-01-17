@@ -1,0 +1,93 @@
+body{
+
+  font-family: Alial;
+
+}
+
+#check{
+
+}
+
+#letter_0{
+  width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-color: rgb(100,100,100);
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid black;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 35px;
+}
+
+#letter_1{
+  width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-color: rgb(100,100,100);
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid black;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 35px;
+}
+
+#letter_2{
+  width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-color: rgb(100,100,100);
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid black;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 35px;
+}
+
+#letter_3{
+  width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-color: rgb(100,100,100);
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid black;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 35px;
+}
+
+#letter_4{
+  width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-color: rgb(100,100,100);
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid black;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 35px;
+}
+
+td{
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  background-color: rgb(100,100,100);
+  display: inline-block;
+  border-radius: 5px;
+  border: 2px solid black;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-size: 35px;
+}
