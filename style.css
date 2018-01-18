@@ -5,11 +5,24 @@ body{
 
 h1{
   color: black;
-  padding-left: 10px;
+  padding-left: 5px;
+}
+
+main{
+  width: 600px;
+  height: 500px;
+  color: black;
+  padding-left: 650px;
+  top: 175px;
+  position: absolute;
 }
 
 #check{
+  margin: auto;
+}
 
+#table{
+  padding-top: 5px;
 }
 
 #letter_0{
