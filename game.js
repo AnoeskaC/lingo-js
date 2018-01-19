@@ -46,6 +46,7 @@ function check() {
 
    if(attempt === 6){
      document.getElementById('gameover').style.display = "block"
+     location.reload()
    }
    else{attempt++}
  }
